@@ -2,10 +2,13 @@
 
 int main(void)
 {
+	/* copy input to output Ritchie book*/
+	int c;
 
-	char ch;
-	ch = 'a';
-
-	printf("Char = %c and its ASCII code is %d\n", ch, ch);
-	return 0;
+	c = getchar();
+	while (c != EOF) {
+		putchar(c);
+		c = getchar();
+	
+	}
 }
